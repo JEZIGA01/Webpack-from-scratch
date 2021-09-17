@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Gluten:wght@200&display=swap');
+:root {
+    --color-primary: #ff0062;
+    --color-secundary: #ffff;
+ 
+}
+ 
+ 
+.text-primary {
+    color: var(--color-primary) !important;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Gluten', cursive;
+    text-align: center; 
+    color: white;
+  background-color: black;
+}
+
+#root {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.content {
+    flex: 1 0 auto;
+    
+}
+
+.footer {
+    flex-shrink: 0;
+    text-align: center;
+}
