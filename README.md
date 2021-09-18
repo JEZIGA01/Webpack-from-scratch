@@ -1,5 +1,4 @@
-# config-Webpack5-Ts-Babel
-
+ 
 # 🗂 Sites que ajudaram na configuração do projeto
 
 <li>npm : https://www.npmjs.com/ </li>
