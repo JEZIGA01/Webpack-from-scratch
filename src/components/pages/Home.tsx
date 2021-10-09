@@ -1,5 +1,7 @@
 import Footer from "../Footer";
 import NavBar from "../Navbar";
+// @ts-ignore
+import logo from "../../assets/img/me.gif";
 
 function Home() {
   return (
@@ -13,8 +15,15 @@ function Home() {
           href="https://www.linkedin.com/in/jessicaaquiles/"
           target="_blank"
           rel="noreferrer"
-        >
-          Jéssica Aquiles
+        >  Jéssica Aquiles
+          <img
+            alt="logo"
+            style={{
+              width: 400,
+            }}
+            src={logo}
+          />
+          
         </a>
       </h3>
 

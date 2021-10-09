@@ -18,5 +18,3 @@
 <b>
 npm build<br>
 npm start</b>
-
-<img src="https://media.discordapp.net/attachments/888832521465376821/896450907737309275/unknown.png?width=944&height=499">
