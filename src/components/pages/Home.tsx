@@ -9,24 +9,9 @@ function Home() {
       <NavBar />
 
       <h1>A configurar o Webpack + Typescript + Babel </h1>
-      <h3>
-        App desenvolvido por:
-        <a
-          href="https://www.linkedin.com/in/jessicaaquiles/"
-          target="_blank"
-          rel="noreferrer"
-        >  Jéssica Aquiles
-          <img
-            alt="logo"
-            style={{
-              width: 400,
-            }}
-            src={logo}
-          />
-          
-        </a>
-      </h3>
-
+      <h2>App desenvolvido por:Jéssica Aquiles</h2>
+        <a href="https://www.linkedin.com/in/jessicaaquiles/" target="_blank"  rel="noreferrer">  
+          <img  alt="logo" style={{ width: 400 }} src={logo}  /> 
       <Footer />
     </>
   );
